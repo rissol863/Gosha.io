@@ -1,0 +1,75 @@
+header{
+    animation: hed ease-in .5s  ;
+}
+
+@keyframes hed {
+    0%{
+        position:relative;
+        top:-100px;
+    }
+    100%{
+        position:relative;
+        top:0;
+    }
+}
+
+
+
+@keyframes vic {
+    0%{
+        position: relative;
+        top: 0;
+    }
+
+    50%{
+        position:relative;
+        top: 30px;
+    }
+
+    100%{
+        position:relative;
+        top: 0;
+    }
+}
+
+.slide_one{
+    animation: slide_one ease 1s;
+}
+
+
+@keyframes slide_one {
+    0%{
+        position: relative;
+        left: -700px;
+    }
+
+    100%{
+        position: relative;
+        left: 0;
+    }
+
+
+
+
+
+}
+.slide_two{
+    animation: slide_two ease 1s;
+}
+
+@keyframes slide_two{
+    0%{
+        position: relative;
+        right: -700px;
+    }
+
+    100%{
+        position: relative;
+        right: 0;
+    }
+}
+
+
+.slide_free{
+    animation: slide_two ease 1s;
+}
